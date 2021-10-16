@@ -72,8 +72,8 @@ function App() {
           </div>
 
           <Switching>
-            <Route path="/" exact>
-             <Redirect to="/home" />
+            <Route path="/my-portfolio" exact>
+             
               <HomePage />
             </Route>
             <Route path="/about" exact>
